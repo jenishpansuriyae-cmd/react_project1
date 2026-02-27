@@ -39,6 +39,9 @@ h1 {
   text-align: start;
   padding: 0;
 }
+.accordion-button::after{
+  filter: invert(1);
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
